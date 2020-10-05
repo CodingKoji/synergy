@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+
+button {
+  &:focus {
+    outline: none;
+    cursor: pointer;
+  }
+}
